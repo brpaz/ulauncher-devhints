@@ -39,8 +39,13 @@ class DevhintsExtension(Extension):
         hawkeye_action = RunScriptAction(
             'hawkeye --uri="%s"' % page['url'], [])
 
+        epiphany_action = RunScriptAction(
+            'epiphany-browser "%s"' % page['url'], [])
+
         if self.preferences['primary_action'] == "Hawkeye Quicklook":
             on_enter = hawkeye_action
+        elif self.preferences['primary_action'] == "Gnome Web":
+            on_enter = epiphany_action
         else:
             on_enter = browser_action
 
@@ -48,6 +53,8 @@ class DevhintsExtension(Extension):
             on_alt_enter = DoNothingAction()
         elif self.preferences['secondary_action'] == "Hawkeye Quicklook":
             on_alt_enter = hawkeye_action
+        elif self.preferences['secondary_action'] == "Gnome Web":
+            on_alt_enter = epiphany_action
         else:
             on_alt_enter = browser_action
 

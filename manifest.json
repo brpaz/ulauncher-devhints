@@ -10,7 +10,7 @@
   },
   "preferences": [
     {
-      "id": "demo_kw",
+      "id": "devhints_kw",
       "type": "keyword",
       "name": "DevHints",
       "default_value": "dh"
@@ -28,7 +28,7 @@
       "name": "Primary action",
       "description": "Choose where do you want to open the select url when pressing the ENTER key",
       "default_value": "Default Browser",
-      "options": ["Default Browser", "Hawkeye Quicklook"]
+      "options": ["Default Browser", "Gnome Web", "Hawkeye Quicklook"]
     },
     {
       "id": "secondary_action",
@@ -36,7 +36,7 @@
       "name": "Secondary action",
       "description": "Choose where do you want to open the select url when pressing the ALT + ENTER key",
       "default_value": "None",
-      "options": ["None", "Default Browser", "Hawkeye Quicklook"]
+      "options": ["None", "Default Browser", "Gnome Web", "Hawkeye Quicklook"]
     }
   ]
 }
