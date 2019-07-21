@@ -1,7 +1,8 @@
 # ulauncher-devhints
 
-[![Build Status](https://img.shields.io/travis/com/brpaz/ulauncher-devhints.svg)](https://github.com/brpaz/ulauncher-devhints)
-[![GitHub license](https://img.shields.io/github/license/brpaz/ulauncher-devhints.svg)](https://github.com/brpaz/:ulauncher-devhints/blob/master/LICENSE)
+[![Ulauncher Extension](https://img.shields.io/badge/Ulauncher-Extension-green.svg?style=for-the-badge)](https://ext.ulauncher.io/-/github-brpaz-ulauncher-devhints)
+[![CircleCI](https://img.shields.io/circleci/build/github/brpaz/ulauncher-devhints.svg?style=for-the-badge)](https://circleci.com/gh/brpaz/ulauncher-devhints)
+![License](https://img.shields.io/github/license/brpaz/ulauncher-devhints.svg?style=for-the-badge)
 
 > [Ulauncher](https://ulauncher.io) extension that provides quick access to DevHints cheat sheets.
 
@@ -11,8 +12,8 @@
 
 ## Requirements
 
-- Ulauncher
-- Python >= 2.7
+- Ulauncher >= V5
+- Python >= 3
 
 ## Install
 
@@ -22,29 +23,24 @@ Open ulauncher preferences window -> extensions -> add extension and paste the f
 https://github.com/brpaz/ulauncher-devhints
 ```
 
+ 
 ## Development
 
 ```
-git clone https://github.com/brpaz/ulauncher-devhints
 make link
+make dev
 ```
-
-The `make link` command will symlink the cloned repo into the appropriate location on the ulauncher extensions folder.
-
-To see your changes, stop ulauncher and run it from the command line with: `ulauncher -v`.
 
 ## Contributing
 
-- Fork it!
-- Create your feature branch: git checkout -b my-new-feature
-- Commit your changes: git commit -am 'Add some feature'
-- Push to the branch: git push origin my-new-feature
-- Submit a pull request :D
+Contributions, issues and Features requests are welcome.
 
-## Authors
+## Show your support
 
-- [Bruno Paz](https://github.com/brpaz)
+<a href="https://www.buymeacoffee.com/Z1Bu6asGV" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
-## License
+## License 
 
-MIT &copy; [Bruno Paz]
+Copywright @ 2019 [Bruno Paz](https://github.com/brpaz)
+
+This project is [MIT](LLICENSE) Licensed.

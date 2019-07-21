@@ -8,7 +8,6 @@ import requests
 
 CACHE_TTL = 3600
 
-
 class DevHints():
     """ Handles DevHints logic """
 
